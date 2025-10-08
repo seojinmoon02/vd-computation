@@ -18,8 +18,8 @@ b = Math.floor(Math.random() * 256);
 }
 
 function draw() {
-  createCanvas(500, 500);
+  createCanvas(350, 350);
   background(r,g,b);
   //image(body, 0, 0);
-  image(arrow, 75, 40);
+  image(arrow, -20, -20);
 }
