@@ -5,7 +5,7 @@ let b;
 
 function preload() {
   // select a random image
-  arrow = loadImage(int(random(1, 7)) + ".png");  
+  arrow = loadImage(int(random(1, 8)) + ".png");  
 }
 
 function setup() {
