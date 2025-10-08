@@ -1,7 +1,25 @@
+let arrow;
+let r;
+let g;
+let b;
+
+function preload() {
+  // select a random image
+  arrow = loadImage(int(random(1, 7)) + ".png");  
+}
+
 function setup() {
-  createCanvas(400, 400);
+  
+r = Math.floor(Math.random() * 256);
+g = Math.floor(Math.random() * 256);
+b = Math.floor(Math.random() * 256);
+//  return `rgb(${r}, ${g}, ${b})`;
+
 }
 
 function draw() {
-  background(220);
+  createCanvas(500, 500);
+  background(r,g,b);
+  //image(body, 0, 0);
+  image(arrow, 75, 40);
 }
