@@ -21,5 +21,5 @@ function draw() {
   createCanvas(350, 350);
   background(r,g,b);
   //image(body, 0, 0);
-  image(arrow, -20, -20);
+  image(arrow, 0, 0);
 }
