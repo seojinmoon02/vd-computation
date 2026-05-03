@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Poppins', 'Pretendard', sans-serif;
+  background: radial-gradient(circle at top, #132038, #060910 70%);
+  color: #e5ecff;
+}
+canvas { display: block; }
+.overlay {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  background: rgba(10, 18, 31, 0.55);
+  border: 1px solid rgba(160, 197, 255, 0.35);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  backdrop-filter: blur(4px);
+}
+.overlay h1 {
+  font-size: 1.1rem;
+  margin: 0 0 0.3rem;
+}
+.overlay p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
